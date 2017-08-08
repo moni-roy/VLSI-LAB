@@ -1,5 +1,5 @@
 # VLSI-LAB
- 1. - (a) Design & Implementation of a Full Adder circuit using Microwind/DSCH.
+ 1. - (a) Design & Implementation of a 4bit parallel Adder circuit using Microwind/DSCH.
     - (b) Design & Implementation of a CLA (Carry Look Ahead) circuit using Microwind/DSCH.
  2. - (a) Implementation and Design of NAND gate.
     - (b) Implementation and Design of NOR gate.
