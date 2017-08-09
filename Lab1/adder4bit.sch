@@ -1,11 +1,11 @@
 DSCH 2.6h
-VERSION 2/26/2017 12:35:57 PM
+VERSION 8/8/2017 8:47:17 PM
 BB(-69,-50,149,120)
 SYM  #adder
 BB(45,-5,85,35)
 TITLE 55 5  #adder
 MODEL 6000
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(50,0,30,30,r)
 VIS 5
 PIN(45,25,0.000,0.000)in1
@@ -22,21 +22,21 @@ LIG(50,0,50,30)
 LIG(50,0,80,0)
 LIG(80,0,80,30)
 LIG(80,30,50,30)
-VLG  module adder( in1,in2,in3,out1,out2);
-VLG   input in1,in2,in3;
-VLG   output out1,out2;
-VLG   xor #(23) xor2(w3,in1,in2);
-VLG   xor #(16) xor2(out2,w3,in3);
-VLG   and #(16) and2(w6,in3,w3);
-VLG   and #(16) and2(w7,in2,in1);
-VLG   or #(16) or2(out1,w6,w7);
-VLG  endmodule
+VLG      module adder( in1,in2,in3,out1,out2);
+VLG       input in1,in2,in3;
+VLG       output out1,out2;
+VLG       xor #(23) xor2(w3,in1,in2);
+VLG       xor #(16) xor2(out2,w3,in3);
+VLG       and #(16) and2(w6,in3,w3);
+VLG       and #(16) and2(w7,in2,in1);
+VLG       or #(16) or2(out1,w6,w7);
+VLG      endmodule
 FSYM
 SYM  #adder
 BB(45,40,85,80)
 TITLE 55 50  #adder
 MODEL 6000
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(50,45,30,30,r)
 VIS 5
 PIN(45,70,0.000,0.000)in1
@@ -53,21 +53,21 @@ LIG(50,45,50,75)
 LIG(50,45,80,45)
 LIG(80,45,80,75)
 LIG(80,75,50,75)
-VLG  module adder( in1,in2,in3,out1,out2);
-VLG   input in1,in2,in3;
-VLG   output out1,out2;
-VLG   xor #(23) xor2(w3,in1,in2);
-VLG   xor #(16) xor2(out2,w3,in3);
-VLG   and #(16) and2(w6,in3,w3);
-VLG   and #(16) and2(w7,in2,in1);
-VLG   or #(16) or2(out1,w6,w7);
-VLG  endmodule
+VLG      module adder( in1,in2,in3,out1,out2);
+VLG       input in1,in2,in3;
+VLG       output out1,out2;
+VLG       xor #(23) xor2(w3,in1,in2);
+VLG       xor #(16) xor2(out2,w3,in3);
+VLG       and #(16) and2(w6,in3,w3);
+VLG       and #(16) and2(w7,in2,in1);
+VLG       or #(16) or2(out1,w6,w7);
+VLG      endmodule
 FSYM
 SYM  #adder
 BB(45,80,85,120)
 TITLE 55 90  #adder
 MODEL 6000
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(50,85,30,30,r)
 VIS 5
 PIN(45,110,0.000,0.000)in1
@@ -84,21 +84,21 @@ LIG(50,85,50,115)
 LIG(50,85,80,85)
 LIG(80,85,80,115)
 LIG(80,115,50,115)
-VLG  module adder( in1,in2,in3,out1,out2);
-VLG   input in1,in2,in3;
-VLG   output out1,out2;
-VLG   xor #(23) xor2(w3,in1,in2);
-VLG   xor #(16) xor2(out2,w3,in3);
-VLG   and #(16) and2(w6,in3,w3);
-VLG   and #(16) and2(w7,in2,in1);
-VLG   or #(16) or2(out1,w6,w7);
-VLG  endmodule
+VLG      module adder( in1,in2,in3,out1,out2);
+VLG       input in1,in2,in3;
+VLG       output out1,out2;
+VLG       xor #(23) xor2(w3,in1,in2);
+VLG       xor #(16) xor2(out2,w3,in3);
+VLG       and #(16) and2(w6,in3,w3);
+VLG       and #(16) and2(w7,in2,in1);
+VLG       or #(16) or2(out1,w6,w7);
+VLG      endmodule
 FSYM
 SYM  #adder
 BB(45,-45,85,-5)
 TITLE 55 -35  #adder
 MODEL 6000
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(50,-40,30,30,r)
 VIS 5
 PIN(45,-15,0.000,0.000)in1
@@ -129,7 +129,7 @@ SYM  #button1
 BB(-69,-34,-60,-26)
 TITLE -65 -30  #button
 MODEL 59
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(-68,-33,6,6,r)
 VIS 1
 PIN(-60,-30,0.000,0.000)c0
@@ -147,7 +147,7 @@ SYM  #button3
 BB(-69,-9,-60,-1)
 TITLE -65 -5  #button
 MODEL 59
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(-68,-8,6,6,r)
 VIS 1
 PIN(-60,-5,0.000,0.000)in3
@@ -165,7 +165,7 @@ SYM  #button2
 BB(-69,-19,-60,-11)
 TITLE -65 -15  #button
 MODEL 59
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(-68,-18,6,6,r)
 VIS 1
 PIN(-60,-15,0.000,0.000)in2
@@ -183,7 +183,7 @@ SYM  #button4
 BB(-69,16,-60,24)
 TITLE -65 20  #button
 MODEL 59
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(-68,17,6,6,r)
 VIS 1
 PIN(-60,20,0.000,0.000)in4
@@ -201,7 +201,7 @@ SYM  #button5
 BB(-69,26,-60,34)
 TITLE -65 30  #button
 MODEL 59
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(-68,27,6,6,r)
 VIS 1
 PIN(-60,30,0.000,0.000)in5
@@ -219,7 +219,7 @@ SYM  #button6
 BB(-69,56,-60,64)
 TITLE -65 60  #button
 MODEL 59
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(-68,57,6,6,r)
 VIS 1
 PIN(-60,60,0.000,0.000)in6
@@ -237,7 +237,7 @@ SYM  #button7
 BB(-69,71,-60,79)
 TITLE -65 75  #button
 MODEL 59
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(-68,72,6,6,r)
 VIS 1
 PIN(-60,75,0.000,0.000)in7
@@ -255,7 +255,7 @@ SYM  #button8
 BB(-69,96,-60,104)
 TITLE -65 100  #button
 MODEL 59
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(-68,97,6,6,r)
 VIS 1
 PIN(-60,100,0.000,0.000)in8
@@ -273,7 +273,7 @@ SYM  #button9
 BB(-69,111,-60,119)
 TITLE -65 115  #button
 MODEL 59
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(-68,112,6,6,r)
 VIS 1
 PIN(-60,115,0.000,0.000)in9
@@ -291,7 +291,7 @@ SYM  #light4
 BB(133,80,139,94)
 TITLE 135 94  #light
 MODEL 49
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(134,81,4,4,r)
 VIS 1
 PIN(135,95,0.000,0.000)out4
@@ -314,7 +314,7 @@ SYM  #light3
 BB(133,40,139,54)
 TITLE 135 54  #light
 MODEL 49
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(134,41,4,4,r)
 VIS 1
 PIN(135,55,0.000,0.000)out3
@@ -337,7 +337,7 @@ SYM  #light2
 BB(133,-5,139,9)
 TITLE 135 9  #light
 MODEL 49
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(134,-4,4,4,r)
 VIS 1
 PIN(135,10,0.000,0.000)out2
@@ -360,7 +360,7 @@ SYM  #light1
 BB(133,-50,139,-36)
 TITLE 135 -36  #light
 MODEL 49
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(134,-49,4,4,r)
 VIS 1
 PIN(135,-35,0.000,0.000)out1
@@ -383,7 +383,7 @@ SYM  #light5
 BB(143,105,149,119)
 TITLE 145 119  #light
 MODEL 49
-PROP                                                                                                                                                                                                           
+PROP                                                                                                                                                                                                            
 REC(144,106,4,4,r)
 VIS 1
 PIN(145,120,0.000,0.000)out5
@@ -452,4 +452,4 @@ LIG(110,95,135,95)
 LIG(85,100,115,100)
 LIG(115,100,115,120)
 LIG(115,120,145,120)
-FFIG E:\Soft\Lab Soft\DSCH03\Export dsch2\adder4bit.sch
+FFIG Z:\home\krishna\4-1\LAB\VLSI Lab\Lab1\adder4bit.sch

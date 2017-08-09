@@ -1,0 +1,21 @@
+// DSCH 2.6h
+// 3/11/2017 11:42:11 PM
+// E:\MK\Lab2\nor.sch
+
+module nor( A,B,out);
+ input A,B;
+ output out;
+ pmos #(10) pmos(w2,vdd,A); // 2.0u 0.12u
+ pmos #(24) pmos(out,w2,B); // 2.0u 0.12u
+ nmos #(24) nmos(out,vss,B); // 1.0u 0.12u
+ nmos #(24) nmos(out,vss,A); // 1.0u 0.12u
+endmodule
+
+// Simulation parameters in Verilog Format
+always
+#1000 A=~A;
+#2000 B=~B;
+
+// Simulation parameters
+// A CLK 10.000 10.000
+// B CLK 20.000 20.000

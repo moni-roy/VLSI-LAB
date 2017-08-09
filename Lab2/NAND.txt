@@ -1,0 +1,21 @@
+// DSCH 2.6h
+// 3/11/2017 10:24:47 PM
+// E:\MK\Lab2\NAND.sch
+
+module NAND( B,A,out1);
+ input B,A;
+ output out1;
+ nmos #(10) nmos(w2,vss,B); // 1.0u 0.12u
+ nmos #(24) nmos(out1,w2,A); // 1.0u 0.12u
+ pmos #(24) pmos(out1,vdd,A); // 2.0u 0.12u
+ pmos #(24) pmos(out1,vdd,B); // 2.0u 0.12u
+endmodule
+
+// Simulation parameters in Verilog Format
+always
+#16000 B=~B;
+#8000 A=~A;
+
+// Simulation parameters
+// B CLK 160.000 160.000
+// A CLK 80.000 80.000

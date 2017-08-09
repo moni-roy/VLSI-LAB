@@ -1,0 +1,24 @@
+// DSCH 2.6h
+// 8/9/2017 9:15:34 AM
+// Z:\home\krishna\4-1\LAB\VLSI Lab\Lab6\ShiftRegister.sch
+
+module ShiftRegister( Shift,Reset,Data,out3,digit11,digit12,digit13,digit14,
+ out1,out7,out9);
+ input Shift,Reset,Data;
+ output out3,digit11,digit12,digit13,digit14,out1,out7,out9;
+ dreg #(12) dreg1(digit11,w5,Data,Reset,Shift);
+ dreg #(12) dreg2(out9,w7,digit11,Reset,Shift);
+ dreg #(12) dreg3(out7,w9,out9,Reset,Shift);
+ dreg #(12) dreg4(out1,w11,out7,Reset,Shift);
+endmodule
+
+// Simulation parameters in Verilog Format
+always
+#1000 Shift=~Shift;
+#2000 Reset=~Reset;
+#3000 Data=~Data;
+
+// Simulation parameters
+// Shift CLK 10 10
+// Reset CLK 20 20
+// Data CLK 30 30
